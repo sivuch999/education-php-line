@@ -1,0 +1,72 @@
+{"events":[{"type":"message","replyToken":"37484e189f0b4b56ab4574011cd0bf2f","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606214459895,"mode":"active","message":{"type":"text","id":"13086606503355","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"4a6d88b9d1d6482cb9e2656ba211ac45","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606214504387,"mode":"active","message":{"type":"text","id":"13086610214098","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"2b2e05581fe141e486497de536e4dad7","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606214579602,"mode":"active","message":{"type":"text","id":"13086616484043","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"fae4f7d5f8eb46e4aa3a2fb9078a77a5","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606280564175,"mode":"active","message":{"type":"text","id":"13090859888661","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"84966499efc74373a5a3b8ad81ca869c","source":{"userId":"U894dc8faaee9082986b570997a2dc9dd","type":"user"},"timestamp":1606280609377,"mode":"active","message":{"type":"text","id":"13090863104376","text":".."}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"f09a133c1a0a48ddb4416c4029347eb9","source":{"userId":"Ub24bc838a42e9721a19af8797daef51c","type":"user"},"timestamp":1606283987134,"mode":"active","message":{"type":"text","id":"13091098507630","text":"555"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"c2368337993347cd931cb8e930fe0c6a","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285599604,"mode":"active","message":{"type":"text","id":"13091214736505","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"d0cb741ca81d4ecc8b883b129ea3c8a1","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285660542,"mode":"active","message":{"type":"text","id":"13091219096361","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{
+    "events": [
+        {
+            "type": "message",
+            "replyToken": "d6d12e12d1034260867e0aef038359aa",
+            "source": {
+                "userId": "Ua18249e67884f3e1eecbeaab3e5534e7",
+                "type": "user"
+            },
+            "timestamp": 1606212274341,
+            "mode": "active",
+            "message": {
+                "type": "text",
+                "id": "13086423607680",
+                "text": "asd"
+            }
+        }
+    ],
+    "destination": "U31aed5e934107f8bb17746c6858f93b4"
+}
+{
+    "events": [
+        {
+            "type": "message",
+            "replyToken": "d6d12e12d1034260867e0aef038359aa",
+            "source": {
+                "userId": "Ua18249e67884f3e1eecbeaab3e5534e7",
+                "type": "user"
+            },
+            "timestamp": 1606212274341,
+            "mode": "active",
+            "message": {
+                "type": "text",
+                "id": "13086423607680",
+                "text": "คิวของฉัน"
+            }
+        }
+    ],
+    "destination": "U31aed5e934107f8bb17746c6858f93b4"
+}
+{
+    "events": [
+        {
+            "type": "message",
+            "replyToken": "d6d12e12d1034260867e0aef038359aa",
+            "source": {
+                "userId": "Ua18249e67884f3e1eecbeaab3e5534e7",
+                "type": "user"
+            },
+            "timestamp": 1606212274341,
+            "mode": "active",
+            "message": {
+                "type": "text",
+                "id": "13086423607680",
+                "text": "คิวของฉัน"
+            }
+        }
+    ],
+    "destination": "U31aed5e934107f8bb17746c6858f93b4"
+}
+{"events":[{"type":"message","replyToken":"77bff98364a84f1985211353d32e739a","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285812714,"mode":"active","message":{"type":"text","id":"13091230023733","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"2ee2685637634e96988cab8588ae9937","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285830838,"mode":"active","message":{"type":"text","id":"13091231330833","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"64c1ecdcb5cc4a3f9b7766100e3b0ffb","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285847344,"mode":"active","message":{"type":"text","id":"13091232512396","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
+{"events":[{"type":"message","replyToken":"a5e620264a2a404da625aaea5c27557c","source":{"userId":"Ua18249e67884f3e1eecbeaab3e5534e7","type":"user"},"timestamp":1606285882359,"mode":"active","message":{"type":"text","id":"13091235028925","text":"คิวของฉัน"}}],"destination":"U31aed5e934107f8bb17746c6858f93b4"}
