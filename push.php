@@ -1,6 +1,7 @@
 <?php
     require("config.php");
     require("connect.php");
+    
     if ( isset($_POST["lineId"]) && !empty($_POST["lineId"]) ) {
         $payload["headers"] = ["Content-Type: application/json", "Authorization: Bearer {$accessToken}"];
         $payload["body"]["to"] = "Ua18249e67884f3e1eecbeaab3e5534e7";

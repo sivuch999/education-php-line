@@ -1,16 +1,31 @@
 <?php
     require("config.php");
     require("connect.php");
+    
     if ( !empty($contents) ) {
         $request = json_decode($contents, true);
         file_put_contents("log.txt", "\n".$contents, FILE_APPEND);   
         
+        $type = $request["events"][0]["type"];
         $replyToken = $request["events"][0]["replyToken"];
         $lineId = $request["events"][0]["source"]["userId"];
         $text = $request["events"][0]["message"]["text"];
-        $queue = 123;
         
-        if ($text == "คิวของฉัน") {
+        if ($type == "follow") {
+            $sql = "
+                INSERT INTO customer (customer_value, customer_ID, customer_name, customer_phone)
+                VALUES(
+                    1,
+                    1,
+                    '$lineId',
+                    0
+                )
+            ";
+            $result = $conn->query($sql);
+        }
+
+        if ($type == "message" && $text == "คิวของฉัน") {
+            $queue = 123;
             $payload["headers"] = ["Content-Type: application/json", "Authorization: Bearer {$accessToken}"];
             $payload["body"]["replyToken"] = $replyToken;
             $payload["body"]["messages"][0] = templateMessage("เหลืออีก 5 จะถึงคิวของท่าน");
