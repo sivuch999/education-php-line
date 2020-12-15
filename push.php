@@ -1,6 +1,6 @@
 <?php
     require("config.php");
-    require("connect.php");
+    // require("connect.php");
     
     if ( isset($_POST["lineId"]) && !empty($_POST["lineId"]) ) {
         $payload["headers"] = ["Content-Type: application/json", "Authorization: Bearer {$accessToken}"];
@@ -8,6 +8,7 @@
         $payload["body"]["messages"][0]["type"] = "text";
         $payload["body"]["messages"][0]["text"] = "เหลืออีก ".$_POST["queue"]." จะถึงคิวของท่าน";
         pushMessage($payload);
+
 
         // $sql = "
         //     SELECT
@@ -41,6 +42,9 @@
         // }
     }
 
+    echo json_encode(array("code" => 200, "status" => "OK"));
+    http_response_code(200);
+
     function pushMessage($payload){
        $strUrl = "https://api.line.me/v2/bot/message/push";
        $ch = curl_init();
@@ -51,8 +55,5 @@
        $result = curl_exec($ch);
        curl_close ($ch);
     }
-
-    echo json_encode(array("code" => 200, "status" => "OK"));
-    http_response_code(200);
 
 ?>

@@ -1,6 +1,6 @@
 <?php
     require("config.php");
-    require("connect.php");
+    // require("connect.php");
     
     if ( !empty($contents) ) {
         $request = json_decode($contents, true);

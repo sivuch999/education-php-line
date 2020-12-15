@@ -1,4 +1,6 @@
-<?php require("connect.php"); ?>
+<?php
+    // equire("connect.php");
+?>
 
 <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 
